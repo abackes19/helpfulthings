@@ -12,9 +12,11 @@ For the inverse kinematics math: x and y planes are fixed, as shown on left side
 
 Right now there are also a number of things you can do to break the code by making it do some invalid math. This was going to be fixed by putting in the limitations of the physical arm but then it snapped off and we never used it again so that was not done. 
 
+For the socket networking: make sure to change the ip address in the code to the pi you're using (or 127.0.0.1 if you're just doing it on your computer). Control C if it's pausing to connect and you don't want it to (pygame will still open). Ask Brian Bianchi or Alex Saffert if you have questions about it.
+
 If you want to know how the fullmotor.py code works for controlling the motors, ask Connor Weatherly/ see his documentation. It uses potentiometers so if you aren't using those, just take the socket/pickle part of that code to get the xyz coordinates to the pi.
 
-Read the code comments to learn more specifically how it works. The videos on the drive might help. Other versions are in the misc2019 repository and ink (the pygame-ik.py series). Contact me if you're desperate.
+Read the code comments to learn more specifically how it works. The videos on the drive can help. Other versions are in the misc2019 repository and ink (the pygame-ik.py series). Contact me if you're desperate (bugging Hans is probably the easiest way).
 
 # Cameras
 
