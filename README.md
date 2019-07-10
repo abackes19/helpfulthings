@@ -41,3 +41,16 @@ This is for the DFRObot 0159 co2 sensor. Look at the wiki for more info. To view
 Be gentle with it. Look at the documentation before you bug Voss. 
 
 Helpful things to do: toggle developer tools. Edit the index js and html scripts to add buttons or do other fun things. To learn more: see my video on the drive, look at Brad Shibley's documentation, ask someone who knows those languages.
+
+# Other things
+
+following2019.py : an attempt at autonomy, never tested. You'll need 6 analog sensors: one on left and front sides, two on right and back sides. Michael Miller may have documentation on this.
+
+timer.py : a timer for the driver during the challenges. You can only run one thing posting data at a time, so sensors.py should do it all but it might not be updated.
+
+#
+
+You'll need RoboPiLib, setup, post_to_web, pygame, and/or python3 depending on the code. You can get these from bsmLib or just import them from there.
+
+Good luck and godspeed.
+
